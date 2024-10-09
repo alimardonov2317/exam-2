@@ -1,0 +1,41 @@
+@media (max-width: 1024px) {
+    .navbar__item{
+        display: none;
+    }
+    .hero__title{
+        font-size: 64px;
+        font-weight: 700;
+    }
+    .location__card{
+        width: 260px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar__btn{
+        display: none;
+    }
+    .navbar__select{
+        display: none;
+    }
+    .navbar__menu{
+        display: block;
+    }
+}
+@media (max-width: 375px) {
+    .location{
+        padding-top: 64px;
+    }
+    .location__text-wrapper{
+        display: block;
+    }
+    .location__title{
+        font-size: 40px;
+    }
+    .location__action:nth-child(2){
+        display: none;
+    }
+    .location__action:nth-child(3){
+        display: block;
+        padding-top: 48px;
+    }
+}
